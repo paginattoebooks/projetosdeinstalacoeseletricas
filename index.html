@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos de Instalações Elétricas | Formação e Prática</title>
+    <script type="module" crossorigin src="/assets/index-yWI4Jl_9.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DefCgSvZ.css">
+    <link rel="stylesheet" crossorigin href="/assets/modern-overrides.css">
+    <script>
+      (function () {
+        function updateBranding() {
+        var brand = document.querySelector('header .font-heading.font-black');
+        var footer = document.querySelector('footer p');
+        var banner = document.querySelector('main img[alt*="Banner"]');
+        if (brand) brand.textContent = 'PROJETOS DE INSTALAÇÕES ELÉTRICAS';
+        if (footer) footer.textContent = '© 2026 PROJETOS DE INSTALAÇÕES ELÉTRICAS. Todos os direitos reservados.';
+        if (banner) {
+          banner.src = '/ChatGPT%20Image%2016%20de%20set.%20de%202026%2C%2011_34_59.png';
+          banner.alt = 'Banner Projetos de Instalações Elétricas';
+        }
+        return Boolean(brand && footer && banner);
+        }
+        if (!updateBranding()) {
+          var observer = new MutationObserver(function () {
+            if (updateBranding()) observer.disconnect();
+          });
+          observer.observe(document.documentElement, { childList: true, subtree: true });
+        }
+      }());
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
